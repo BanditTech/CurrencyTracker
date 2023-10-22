@@ -1,0 +1,17 @@
+## Interface: 30300
+## Title: CurrencyTracker
+## Author: bandit
+## Version: 1.0.0
+## Notes: Track your Ascension currency across characters
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: CurrencyTrackerDB
+
+Libs\embeds.xml
+modules\database.lua
+modules\common.lua
+modules\Marks of Ascension.lua
+modules\Mystic Runes.lua
+modules\Mystic Orbs.lua
+modules\Currency.lua
+CurrencyTracker.lua
