@@ -15,7 +15,7 @@ end
 local function fillTooltip()
 	local tt = GameTooltip
 	tt:ClearLines()
-	tt:AddLine("     Ascension Currency: Orbs, Runes, Marks")
+	tt:AddLine("     Ascension Currency: Runes, Orbs, Marks")
 	local sorted = CT:MakeSortedCharacterTable(CT.db.realm.MOA)
 	for _, obj in pairs(sorted) do
 		tt:AddDoubleLine(obj.character, CT.runesIcon .. CT.db.realm.MR[obj.character] .. "     " .. CT.orbsIcon .. CT.db.realm.MO[obj.character] .. "     " .. CT.marksIcon .. obj.count, 1, 1, 1)
